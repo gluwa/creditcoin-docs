@@ -102,10 +102,10 @@ You need to edit the following elements in each section:
 #### Server/docker-compose.yaml
 
 ```yaml
---endpoint tcp://<insert.your.ip>:8800 \
+--endpoint tcp://[insert.your.ip]:8800 \
 ```
 
-1. Replace `<insert.your.ip>` on lines 51 and 61 with [your public IPv4 address.](https://www.whatismyip.com) The public IPv4 address must be static and not generated from DHCP.  Do not include the `"<" and ">"` signs. For example:\
+1. Replace `[insert.your.ip]` on line 61 with [your public IPv4 address.](https://www.whatismyip.com) The public IPv4 address must be static and not generated from DHCP.  Do not include the `"`\[`" and "]"` signs. For example:\
    `--endpoint tcp://13.93.178.197:8800 \`
 2. To allow others to access your node, the port used in the above line (e.g. 8800) should be [opened in your firewall and forwarded in your router](https://www.wikihow.com/Open-Ports).
 
@@ -179,7 +179,7 @@ creditcoinRestApiURL: ''
 
 You can check your miner balance by following the link below and replacing the {insert\_sighash} with your miner sighash. This is useful for checking your balance without having to run any Docker containers or start the Creditcoin client.
 
-__[** https://www.creditcoinexplorer.com/address-detail?address={sighash\_here**](https://www.creditcoinexplorer.com/address-detail?address=%3Csighash\_here%3E)**}**
+__[ **https://www.creditcoinexplorer.com/address-detail?address={sighash\_here**](https://www.creditcoinexplorer.com/address-detail?address=%3Csighash\_here%3E)**}**
 
 _If upon running the command to check your balance you are getting `error 404`, then the address has not mined any blocks yet and there are no records in the blockchain API relating to that address._
 
