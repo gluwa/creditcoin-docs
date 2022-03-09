@@ -85,7 +85,7 @@ We strongly recommend using the published blockchain snapshot to avoid any poten
 `aria2c -x5 http://dl.creditcoin.org/latestblocks/snapshot-03-09-2022.tar.gz`
 
 **Torrent Download:**\
-[https://dl.creditcoin.org/latestblocks/snapshot-03-09-2022.tar.gz.torrent](https://dl.creditcoin.org/latestblocks/snapshot-03-09-2022.tar.gz.torrent)
+[http://dl.creditcoin.org/latestblocks/snapshot-03-09-2022.tar.gz.torrent](http://dl.creditcoin.org/latestblocks/snapshot-03-09-2022.tar.gz.torrent)
 
 **Torrent Magnet** Link**:**
 
