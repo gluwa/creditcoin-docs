@@ -6,7 +6,7 @@ description: >-
 
 # Updating Creditcoin Nodes
 
-## Option 1: Update Creditcoin Images <a href="e110" id="e110"></a>
+## Option 1: Update Creditcoin Images <a href="#e110" id="e110"></a>
 
 _Recommended for regular users_
 
@@ -46,7 +46,7 @@ gluwa/sawtooth-rest-api:1.7
 ```
 {% endhint %}
 
-## Option 2: Manually update several lines in your existing `docker-compose.yaml` file <a href="e110" id="e110"></a>
+## Option 2: Manually update several lines in your existing `docker-compose.yaml` file <a href="#e110" id="e110"></a>
 
 _Recommended for advanced users_
 
@@ -73,22 +73,33 @@ image: gluwa/sawtooth-rest-api:1.7
                 --seeds tcp://node-003.creditcoin.org:8800 \
 ```
 
-## Download Snapshot <a href="04db" id="04db"></a>
+## Download Snapshot <a href="#04db" id="04db"></a>
 
 We strongly recommend using the published blockchain snapshot to avoid any potential problems.
 
-Direct download link:\
-&#x20;[http://dl.creditcoin.org/latestblocks/ccSnapshot-2021.10.16\_961837.tar.gz](http://dl.creditcoin.org/latestblocks/ccSnapshot-2021.10.16\_961837.tar.gz)
+**Direct Download:**\
+[http://dl.creditcoin.org/latestblocks/snapshot-03-09-2022.tar.gz](http://dl.creditcoin.org/latestblocks/snapshot-03-09-2022.tar.gz)
 
-* Timestamp: 10/17/2021 @ 08:50 GMT
-* Latest Block: 961,837
-* File Name: ccSnapshot-2021.10.16\_961837.tar.gz
-*
+**CLI download examples:**\
+`wget http://dl.creditcoin.org/latestblocks/snapshot-03-09-2022.tar.gz`\
+`aria2c -x5 http://dl.creditcoin.org/latestblocks/snapshot-03-09-2022.tar.gz`
 
-    File Size: 89 GB
-*
+**Torrent Download:**\
+[https://dl.creditcoin.org/latestblocks/snapshot-03-09-2022.tar.gz.torrent](https://dl.creditcoin.org/latestblocks/snapshot-03-09-2022.tar.gz.torrent)
 
-    SHA-256 Hash: `BE87E0365CCC01147D9D98DA0397F62F716AF4B2FC9586232160790580252948`
+**Torrent Magnet** Link**:**
+
+```
+magnet:?xt=urn:btih:2fc772aa5d5fbcef162611c81dae3ea4bd0b7130&xt=urn:btmh:1220e132c6ad8c4600d6edda0275102f01ccf690cc864b58ba825389e023117cbe5a&dn=snapshot-03-09-2022.tar.gz&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce&ws=http%3a%2f%2fdl.creditcoin.org%2flatestblocks%2fsnapshot-03-09-2022.tar.gz
+```
+
+### Snapshot Details <a href="#snapshot-details-1" id="snapshot-details-1"></a>
+
+* Timestamp: 3/9/2022
+* Latest Block: 1124015
+* File Name: snapshot-03-09-2022.tar.gz
+* File Size: 90.0 GB
+* SHA-256 File Hash: d694d018e39074efdcfee4681004e53271c0587bfd42edb64a7a39b56095f3a2
 
 ## Use Snapshot
 
@@ -109,29 +120,29 @@ Note: In the commands provided below you may need to replace `Server/docker-comp
 ### Windows
 
 1. [Download blockchain snapshot](https://docs.creditcoin.org/updating-creditcoin-nodes#04db) and note the location (e.g. `C:\temp`)&#x20;
-2. Stop the creditcoin docker containers:\
+2. Stop the Creditcoin docker containers:\
    `> docker-compose -f Server/docker-compose.yaml down`
 3. In a new PowerShell or Command Prompt  window, create a temporary container, and mount Docker root to /host:\
    `> docker run -it -v /:/host ubuntu /bin/sh`
 4. Get the new container name (It will be something like "recursing\_lamport"):\
    `> docker container ls`
 5. Copy the snapshot to the docker container (Where "recursing\_lamport" is the container name from step 3)\
-   `> docker cp "C:\temp\ccSnapshot-2021.10.16_961837.tar.gz" recursing_lamport:/`
-6. In the window from step 3, extract the blockchain snapshot: `$ sudo tar xzvf /ccSnapshot-2021.10.16_961837.tar.gz --directory /host/var/lib/docker/volumes/server_validator-block-volume/`
+   `> docker cp "C:\temp\snapshot-03-09-2022.tar.gz" recursing_lamport:/`
+6. In the window from step 3, extract the blockchain snapshot: `$ sudo tar xzvf /snapshot-03-09-2022.tar.gz --directory /host/var/lib/docker/volumes/server_validator-block-volume/`
 7. Restart the Creditcoin docker containers\
    `> docker-compose -f Server/docker-compose.yaml up`
 
 ### Mac OS X
 
 1. [Download blockchain snapshot](https://docs.creditcoin.org/updating-creditcoin-nodes#04db) and note the location (e.g.  `/home/user`)&#x20;
-2. Stop the creditcoin docker containers:\
+2. Stop the Creditcoin docker containers:\
    `> docker-compose -f Server/docker-compose.yaml down`
 3. In a new Terminal window, create a temporary container and mount Docker root to /host:\
    `> docker run -it -v /:/host ubuntu /bin/sh`
 4. Get the new container name (It will be something like "recursing\_lamport"):\
    `> docker container ls`
 5. Copy the snapshot to the docker container (Where "recursing\_lamport" is the container name from step 3)\
-   `$ docker cp "/home/user/ccSnapshot-2021.10.16_961837.tar.gz" recursing_lamport:/`
-6. In the window from step 3, extract the blockchain snapshot: `$ sudo tar xzvf /ccSnapshot-2021.10.16_961837.tar.gz --directory /host/var/lib/docker/volumes/server_validator-block-volume/`
+   `$ docker cp "/home/user/snapshot-03-09-2022.tar.gz" recursing_lamport:/`
+6. In the window from step 3, extract the blockchain snapshot: `$ sudo tar xzvf /snapshot-03-09-2022.tar.gz --directory /host/var/lib/docker/volumes/server_validator-block-volume/`
 7. Restart the Creditcoin docker containers\
    `> docker-compose -f Server/docker-compose.yaml up`
