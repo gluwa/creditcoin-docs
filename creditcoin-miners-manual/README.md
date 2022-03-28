@@ -14,10 +14,6 @@ description: >-
 [pre-2.0-mining-setup](pre-2.0-mining-setup/)
 {% endcontent-ref %}
 
-{% content-ref url="pre-2.0-mining-setup/miner-faq.md" %}
-[miner-faq.md](pre-2.0-mining-setup/miner-faq.md)
-{% endcontent-ref %}
-
 ## Github Documentation Links
 
 The following links are provided for the Creditcoin developer community:

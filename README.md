@@ -17,17 +17,19 @@ description: >-
 [creditcoin-miners-manual](creditcoin-miners-manual/)
 {% endcontent-ref %}
 
-{% content-ref url="creditcoin-miners-manual/pre-2.0-mining-setup/updating-creditcoin-nodes.md" %}
-[updating-creditcoin-nodes.md](creditcoin-miners-manual/pre-2.0-mining-setup/updating-creditcoin-nodes.md)
-{% endcontent-ref %}
-
 {% content-ref url="creditcoin-change-log/" %}
 [creditcoin-change-log](creditcoin-change-log/)
 {% endcontent-ref %}
 
 ## Creditcoin on Github
 
+#### Creditcoin 2.0
+
 {% embed url="https://github.com/gluwa/creditcoin" %}
+
+#### Creditcoin-Legacy (Pre-2.0 versions)
+
+{% embed url="https://github.com/gluwa/creditcoin-legacy" %}
 
 ## Popular Creditcoin Resources
 
