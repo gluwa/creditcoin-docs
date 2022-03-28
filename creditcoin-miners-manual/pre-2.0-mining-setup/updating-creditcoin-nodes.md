@@ -12,7 +12,7 @@ _Recommended for regular users_
 
 Note: In the commands provided below you may need to replace `Server/docker-compose.yaml` with your .yaml file name and path for your node.&#x20;
 
-If you run into any issues, download the latest version of the docker-compose files from [Github](https://github.com/gluwa/CreditcoinDockerCompose-Mainnet), then follow the instructions in [Creditcoin Miner's Manual](creditcoin-miners-manual/) to reconfigure your node.
+If you run into any issues, download the latest version of the docker-compose files from [Github](https://github.com/gluwa/CreditcoinDockerCompose-Mainnet), then follow the instructions in [Creditcoin Miner's Manual](../) to reconfigure your node.
 
 1. Stop your existing docker containers:
 
@@ -103,7 +103,7 @@ magnet:?xt=urn:btih:2fc772aa5d5fbcef162611c81dae3ea4bd0b7130&xt=urn:btmh:1220e13
 
 ## Use Snapshot
 
-Note: In the commands provided below you may need to replace `Server/docker-compose.yaml` with your the .yaml file name and path for your node, or download the latest version of the docker-compose files from [Github](https://github.com/gluwa/CreditcoinDockerCompose-Mainnet), and then follow the instructions in [Creditcoin Miner's Manual](creditcoin-miners-manual/) to reconfigure your node.
+Note: In the commands provided below you may need to replace `Server/docker-compose.yaml` with your the .yaml file name and path for your node, or download the latest version of the docker-compose files from [Github](https://github.com/gluwa/CreditcoinDockerCompose-Mainnet), and then follow the instructions in [Creditcoin Miner's Manual](../) to reconfigure your node.
 
 ### Linux
 
