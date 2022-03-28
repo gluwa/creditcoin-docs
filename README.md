@@ -27,6 +27,12 @@ description: >-
 
 {% embed url="https://github.com/gluwa/creditcoin" %}
 
+Creditcoin 2.0 is the official implementation of the Creditcoin protocol - utilizing Substrate. &#x20;
+
+All lesser versions (1.8 and below) are now deemed as Creditcoin-Legacy, and use the unsupported Hyperledger Sawtooth versioning, and marked as such in their respective repos.  For more information about the transition from Sawtooth to Substrate, please reference the announcement "[Creditcoin 2.0](https://medium.com/creditcoin-foundation/creditcoin-2-0-d9bbca02991a)" made on the Creditcoin Medium dated March 23rd, 2022.
+
+Creditcoin-Legacy repos are posted here for reference:
+
 #### Creditcoin-Legacy (Pre-2.0 versions)
 
 {% embed url="https://github.com/gluwa/creditcoin-legacy" %}
