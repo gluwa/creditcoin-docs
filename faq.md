@@ -20,7 +20,7 @@ The Creditcoin token $CTC is used by parties to complete transaction events with
 
 ## What is the relationship between Creditcoin, Gluwa and Aella?
 
-[Gluwa](https://gluwa.com) is a technology provider of Creditcoin. [Aella](https://aellaapp.com) is a distributor and agent of the Creditcoin blockchain. In other words, Gluwa builds, and Aella acquires users.
+[Gluwa](https://gluwa.com) is a technology provider of Creditcoin. [Aella](https://aellaapp.com/) is a distributor and agent of the Creditcoin blockchain. In other words, Gluwa builds, and Aella acquires users.
 
 ## How does the Creditcoin Network work?
 
@@ -80,7 +80,7 @@ Information on the vesting smart contract is available in the [whitepaper](https
 
 ## What is the total amount of $CTC issued?
 
-The maximum supply is 2,000,000,000.  You can view the total current supply using the block explorer: [https://explorer.creditcoin.org/](https://explorer.creditcoin.org)
+The maximum supply is 2,000,000,000.  You can view the total current supply using the block explorer: [https://explorer.creditcoin.org/](https://explorer.creditcoin.org/)
 
 ## Do you have a Block Explorer for Creditcoin?
 
@@ -94,7 +94,7 @@ The maximum supply is 2,000,000,000.  You can view the total current supply usin
 
 ## If the value of $CTC increases, higher network transaction costs might negatively impact usability. Do you have a solution?
 
-We discuss these issues both in our [blog](https://blog.creditcoin.org) and in the [whitepaper](https://creditcoin.org/white-paper).&#x20;
+We discuss these issues both in our [blog](https://blog.creditcoin.org/) and in the [whitepaper](https://creditcoin.org/white-paper).&#x20;
 
 &#x20;Discussion of potential issues: [https://blog.creditcoin.org/what-makes-creditcoins-token-model-unique/](https://blog.creditcoin.org/what-makes-creditcoins-token-model-unique/)
 

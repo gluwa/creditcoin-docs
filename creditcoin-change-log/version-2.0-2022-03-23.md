@@ -2,7 +2,7 @@
 description: Launched beta version of Creditcoin 2.0 on the Substrate framework
 ---
 
-# Version 2.0 - 2022-3-23
+# Version 2.0 - 2022-03-23
 
 * Launched the beta version of Creditcoin 2.0 network using the Substrate framework.
 * Enabled "Register Deal Order" command which essentially allows preliminary recording of a loan - encapsulating the Creditcoin commands Add Ask Order, Add Bid Order, Add Offer and Add Deal Order.
@@ -15,6 +15,6 @@ description: Launched beta version of Creditcoin 2.0 on the Substrate framework
 
 A temporary block explorer exists at:
 
-[https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmainnet.creditcoin.network#/explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmainnet.creditcoin.network#/explorer)
+[https://polkadot.js.org/apps/#/explorer?rpc=wss://rpc.mainnet.creditcoin.network/ws](https://polkadot.js.org/apps/#/explorer?rpc=wss://rpc.mainnet.creditcoin.network/ws)
 
 **For more information about this transition to Substrate, please see our** [**Medium Post "Creditcoin 2.0"**](https://medium.com/creditcoin-foundation/creditcoin-2-0-d9bbca02991a)**.**

@@ -1,27 +1,29 @@
 # Pre-2.0 Mining Setup
 
-**PLEASE NOTE: This was the original mining setup documentation for the Creditcoin network prior to Creditcoin 2.0 - and primarily was suited toward Creditcoin mining when it was utilizing the Hyperledger Sawtooth protocol.  Now referred to as** [**creditcoin-legacy**](https://github.com/gluwa/creditcoin-legacy) **in the Github repos, and resting on a final 1.8 version, Creditcoin Legacy is no longer supported by the Creditcoin Foundation, Gluwa and its contributors.**
+{% hint style="warning" %}
+PLEASE NOTE: This was the original mining setup documentation for the Creditcoin network prior to Creditcoin 2.0 - and primarily was suited toward Creditcoin mining when it was utilizing the Hyperledger Sawtooth protocol. Now referred to as creditcoin-legacy in the GitHub repos, and resting on a final 1.8 version, Creditcoin Legacy is no longer supported by the Creditcoin Foundation, Gluwa and its contributors.
+{% endhint %}
 
 ## Prerequisites
 
 Before connecting to the Creditcoin blockchain, you will need to set up the following:
 
 * An Ethereum private key
-* An Ethereum RPC mainnet node
+* An Ethereum RPC Mainnet node
 * A 256 bit SECP256K1 ECDSA private key
 * Docker Desktop
 
 ### Get an Ethereum private key
 
-This section is for new Ethereum users who need to create a wallet. We recommend creating a wallet using [MetaMask](https://metamask.io). Refer to [_How to Export an Account Private Key_](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key) on the [Metamask Support](https://metamask.zendesk.com/hc/en-us) site for more information on how to obtain your private key.
+This section is for new Ethereum users who need to create a wallet. We recommend creating a wallet using [MetaMask](https://metamask.io/). Refer to [_How to Export an Account Private Key_](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key) on the [MetaMask Support](https://metamask.zendesk.com/hc/en-us) site for more information on how to obtain your private key.
 
-### Set up an Ethereum RPC mainnet node
+### Set up an Ethereum RPC Mainnet node
 
-This section will cover how to set up an Ethereum RPC mainnet node using [infura.io](https://infura.io) _Alternatively, you can set up your own private RPC mainnet node._
+This section will cover how to set up an Ethereum RPC Mainnet node using [infura.io](https://infura.io) _Alternatively, you can set up your own private RPC Mainnet node._
 
 1. Go onto [infura.io](https://infura.io/register), create a new account and confirm your email address.
 2. In your Infura account dashboard page, click on 'Create New Project' and name it accordingly.
-3. Click on 'View Project' and you will have access to your mainnet node (aka Endpoint).
+3. Click on 'View Project' and you will have access to your Mainnet node (aka Endpoint).
 
 ![Click on the clipboard to the right on the https endpoint (highlighted above) to copy the endpoint URI](<../../.gitbook/assets/image (1).png>)
 
@@ -59,7 +61,7 @@ To configure the Creditcoin Miner files, you will need the following:
 * An Ethereum private key
 * Your Ethereum RPC mainnet node
 * A 256 bit SECP256K1 ECDSA key
-* [Your static public IP address](https://www.whatismyip.com)
+* [Your static public IP address](https://www.whatismyip.com/)
 
 Firstly, [download the Creditcoin files](https://github.com/gluwa/CreditcoinDockerCompose-Mainnet). Afterwards, extract the files in a directory of your choice. You will need to configure the following:
 
@@ -101,7 +103,7 @@ You need to edit the following elements in each section:
 --endpoint tcp://[insert.your.ip]:8800 \
 ```
 
-1. Replace `[insert.your.ip]` on line 61 with [your public IPv4 address.](https://www.whatismyip.com) The public IPv4 address must be static and not generated from DHCP.  Do not include the `"`\[`" and "]"` signs. For example:\
+1. Replace `[insert.your.ip]` on line 61 with [your public IPv4 address.](https://www.whatismyip.com/) The public IPv4 address must be static and not generated from DHCP.  Do not include the `"`\[`" and "]"` signs. For example:\
    `--endpoint tcp://13.93.178.197:8800 \`
 2. To allow others to access your node, the port used in the above line (e.g. 8800) should be [opened in your firewall and forwarded in your router](https://www.wikihow.com/Open-Ports).
 

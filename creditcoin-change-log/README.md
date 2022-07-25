@@ -6,7 +6,9 @@ description: >-
 
 # Creditcoin Change Log
 
-* [Version 2.0 - Released 2022-3-23](https://app.gitbook.com/o/-LjFKFsSaSJudznvwK-5/s/-LjFKK4rtNBbbdxs2d4\_/\~/changes/acQ6JqBaREEsc2UGq0XP/creditcoin-change-log/version-2.0-2022-3-23)
-* [Version 1.8 - Released 2022-3-28](https://app.gitbook.com/o/-LjFKFsSaSJudznvwK-5/s/-LjFKK4rtNBbbdxs2d4\_/\~/changes/acQ6JqBaREEsc2UGq0XP/creditcoin-change-log/version-1.8-2022-3-28)
-* [Version 1.7.1 - Released 2021-07-23](version-1.7.1-2021-07-23.md)
-* [Version 1.7.0 - Released 2021-06-15](version-1.7.0-2021-06-15.md)
+* [version-2.2-2022-06-02.md](version-2.2-2022-06-02.md "mention")
+* [version-2.1-2022-05-02.md](version-2.1-2022-05-02.md "mention")
+* [version-2.0-2022-03-23.md](version-2.0-2022-03-23.md "mention")
+* [version-1.8-2022-03-28.md](version-1.8-2022-03-28.md "mention")
+* [version-1.7.1-2021-07-23.md](version-1.7.1-2021-07-23.md "mention")
+* [version-1.7.0-2021-06-15.md](version-1.7.0-2021-06-15.md "mention")
