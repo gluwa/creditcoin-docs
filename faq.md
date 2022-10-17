@@ -72,7 +72,25 @@ At this time, only $G-CRE, which is Creditcoin's ERC-20 vesting and trading toke
 
 ## Which exchanges is $G-CRE listed on?
 
-$G-CRE is currently listed on [Bitrrex](https://bittrex.com/Market/Index?MarketName=BTC-CTC), [OKEx](https://www.okex.com/markets/spot-info/ctc-usdt), [Gopax](https://www.gopax.co.kr/exchange/CTC-KRW), although more listings are planned.
+$G-CRE is currently listed on these exchanges:
+
+* **CTC/BTC**
+  * [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-CTC)
+  * [Bithumb](https://www.bithumb.com/trade/order/CTC\_BTC)
+  * [OKX](https://www.okex.com/markets/spot-info/ctc-usdt)
+  * [Bittrex](https://bittrex.com/Market/Index?MarketName=BTC-CTC)
+  * [KuCoin](https://www.kucoin.com/trade/CTC-BTC?rcode=rPH7VCS)
+* **CTC/USDT**
+  * ****[OKX](https://www.okex.com/markets/spot-info/ctc-usdt)
+  * [MEXC](https://www.mexc.com/exchange/CTC\_USDT)
+  * [Poloniex](https://poloniex.com/spot/CTC\_USDT/)
+  * [Gate.io](https://gate.io/trade/ctc\_usdt)
+  * [Bybit](https://www.bybit.com/en-US/trade/spot/CTC/USDT)
+  * [Huobi Global](https://www.huobi.com/en-us/exchange/ctc\_usdt)
+* **CTC/KRW**
+  * [Bithumb](https://www.bithumb.com/trade/order/CTC\_KRW)
+
+More listings are planned. See [https://coinmarketcap.com/currencies/creditcoin/markets/](https://coinmarketcap.com/currencies/creditcoin/markets/) for a complete list of active exchanges.
 
 ## How can I swap $G-CRE for the $CTC mainnet coin?
 
