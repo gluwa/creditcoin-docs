@@ -54,19 +54,17 @@ This step might take 10 - 40 minutes to finish.
 
 #### Sync Chain Data <a href="#sync-chain-data" id="sync-chain-data"></a>
 
-Synchronize your node by running the binary inside the `target/production` folder.
+Synchronize your node by running the binary inside the `target/release` folder.
 
 ```bash
 ./target/release/creditcoin-node \
-  --prometheus-external \
-# (optional) opt in to telemetry
-  --telemetry-url "wss://telemetry.polkadot.io/submit/ 0" \
+  --validator
 # node to connect to on boot, in order to join the network
-  --bootnodes "/dns4/bootnode.creditcoin.network/tcp/30333/p2p/12D3KooWAEgDL126EUFxFfdQKiUhmx3BJPdszQHu9PsYsLCuavhb" "/dns4/bootnode2.creditcoin.network/tcp/30333/p2p/12D3KooWSQye3uN3bZQRRC4oZbpiAZXkP2o5UZh6S8pqyh24bF3k" "/dns4/bootnode3.creditcoin.network/tcp/30333/p2p/12D3KooWFrsEZ2aSfiigAxs6ir2kU6en4BewotyCXPhrJ7T1AzjN" \
+  --bootnodes "/dns4/testnet-bootnode.creditcoin.network/tcp/30333/p2p/12D3KooWG3eEuYxo37LvU1g6SSESu4i9TQ8FrZmJcjvdys7eA3cH" "/dns4/testnet-bootnode2.creditcoin.network/tcp/30333/p2p/12D3KooWLq7wCMQS3qVMCNJ2Zm6rYuYh74cM99i9Tm8PMdqJPDzb" "/dns4/testnet-bootnode3.creditcoin.network/tcp/30333/p2p/12D3KooWAKUrvmchoLomoouoN1sKfF9kq8dYtCVFvtPuvqp7wFBS" \
 # REPLACE <yourhostname or ip> with the public IP address or host name that your node can be reached at
   --public-addr "/dns4/<yourhostname or ip>/tcp/30333" \
 # we want to connect to the mainnet
-  --chain mainnet \
+  --chain test \
 # the base path to store the node's data
   --base-path /data \
 # the port to use for node-to-node communication

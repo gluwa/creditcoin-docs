@@ -11,15 +11,12 @@ Run your synced node as a validator by adding the `--validator` flag.
 ```bash
 ./target/release/creditcoin-node \
   --validator
-  --prometheus-external \
-# (optional) opt in to telemetry
-  --telemetry-url "wss://telemetry.polkadot.io/submit/ 0" \
 # node to connect to on boot, in order to join the network
-  --bootnodes "/dns4/bootnode.creditcoin.network/tcp/30333/p2p/12D3KooWAEgDL126EUFxFfdQKiUhmx3BJPdszQHu9PsYsLCuavhb" "/dns4/bootnode2.creditcoin.network/tcp/30333/p2p/12D3KooWSQye3uN3bZQRRC4oZbpiAZXkP2o5UZh6S8pqyh24bF3k" "/dns4/bootnode3.creditcoin.network/tcp/30333/p2p/12D3KooWFrsEZ2aSfiigAxs6ir2kU6en4BewotyCXPhrJ7T1AzjN" \
+  --bootnodes "/dns4/testnet-bootnode.creditcoin.network/tcp/30333/p2p/12D3KooWG3eEuYxo37LvU1g6SSESu4i9TQ8FrZmJcjvdys7eA3cH" "/dns4/testnet-bootnode2.creditcoin.network/tcp/30333/p2p/12D3KooWLq7wCMQS3qVMCNJ2Zm6rYuYh74cM99i9Tm8PMdqJPDzb" "/dns4/testnet-bootnode3.creditcoin.network/tcp/30333/p2p/12D3KooWAKUrvmchoLomoouoN1sKfF9kq8dYtCVFvtPuvqp7wFBS" \
 # REPLACE <yourhostname or ip> with the public IP address or host name that your node can be reached at
   --public-addr "/dns4/<yourhostname or ip>/tcp/30333" \
-# we want to connect to the mainnet
-  --chain mainnet \
+# we want to connect to the test net
+  --chain test \
 # the base path to store the node's data
   --base-path /data \
 # the port to use for node-to-node communication
@@ -33,18 +30,14 @@ docker run \
   -p 30333:30333 \
   -v <your local data path>:/data \
 # Enter testnet/mainnet image
-  gluwa/creditcoin:latest \
+  gluwa/creditcoin:2.222.0-testnet \
   --validator \
-# allow prometheus metrics to be scraped
-  --prometheus-external \
-# (optional) opt in to telemetry
-  --telemetry-url "wss://telemetry.polkadot.io/submit/ 0" \
 # node to connect to on boot, in order to join the network
-  --bootnodes "/dns4/bootnode.creditcoin.network/tcp/30333/p2p/12D3KooWAEgDL126EUFxFfdQKiUhmx3BJPdszQHu9PsYsLCuavhb" "/dns4/bootnode2.creditcoin.network/tcp/30333/p2p/12D3KooWSQye3uN3bZQRRC4oZbpiAZXkP2o5UZh6S8pqyh24bF3k" "/dns4/bootnode3.creditcoin.network/tcp/30333/p2p/12D3KooWFrsEZ2aSfiigAxs6ir2kU6en4BewotyCXPhrJ7T1AzjN" \
+  --bootnodes "/dns4/testnet-bootnode.creditcoin.network/tcp/30333/p2p/12D3KooWG3eEuYxo37LvU1g6SSESu4i9TQ8FrZmJcjvdys7eA3cH" "/dns4/testnet-bootnode2.creditcoin.network/tcp/30333/p2p/12D3KooWLq7wCMQS3qVMCNJ2Zm6rYuYh74cM99i9Tm8PMdqJPDzb" "/dns4/testnet-bootnode3.creditcoin.network/tcp/30333/p2p/12D3KooWAKUrvmchoLomoouoN1sKfF9kq8dYtCVFvtPuvqp7wFBS" \
 # REPLACE <yourhostname or ip> with the public IP address or host name that your node can be reached at
   --public-addr "/dns4/<yourhostname or ip>/tcp/30333" \
-# we want to connect to the mainnet
-  --chain mainnet \
+# we want to connect to the test net
+  --chain test \
 # the base path to store the node's data
   --base-path /data \
 # the port to use for node-to-node communication
@@ -59,7 +52,7 @@ Go to the RPC section and submit an `author_rotateKeys` request to your node. Ma
 
 ## **3. Bond & Validate**
 
-Go to the [Staking](https://polkadot.js.org/apps/?rpc=wss://rpc.mainnet.creditcoin.network/ws#/staking) section on Polkadot-JS APPS. Click on "Account Actions", and then the "+ Validator" button. (For Testnet, [use this link](https://polkadot.js.org/apps/?rpc=wss://rpc.testnet.creditcoin.network/ws#/staking))
+Go to the [Staking](https://polkadot.js.org/apps/?rpc=wss://rpc.testnet.creditcoin.network/ws#/staking) section on Polkadot-JS APPS. Click on "Account Actions", and then the "+ Validator" button.
 
 Select your stash and controller accounts using the dropdown menu. Enter the amount of CTC you wish to bond and the payment destination.
 

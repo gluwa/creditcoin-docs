@@ -18,6 +18,6 @@ You should see your newly created accounts when opening the extension’s menu.
 
 Polkadot-JS APPS is a web UI for interacting with Substrate based nodes like Creditcoin. It allows validators to manage their accounts and set up their nodes.
 
-Open the Polkadot-JS APPS site using either the [hosted](https://polkadot.js.org/apps/?rpc=wss://rpc.mainnet.creditcoin.network/ws) or [IPFS](https://dotapps.io/) version (for Testnet, [use this link](https://polkadot.js.org/apps/?rpc=wss://rpc.testnet.creditcoin.network/ws#/)). In the upper-left corner, click on the network ID to open the menu and select Local Node from the Development tab. Use the default URL or enter your own. Click on Switch to apply connect to your node.&#x20;
+Open the Polkadot-JS APPS site using either the [hosted](https://polkadot.js.org/apps/?rpc=wss://rpc.testnet.creditcoin.network/ws#/) or [IPFS](https://dotapps.io/) version. In the upper-left corner, click on the network ID to open the menu and select Local Node from the Development tab. Use the default URL or enter your own. Click on Switch to apply connect to your node.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>

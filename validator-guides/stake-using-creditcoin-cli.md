@@ -5,7 +5,7 @@
 Creditcoin-CLI comes installed inside the official Creditcoin Docker image. Run the container and set up name for it.
 
 ```bash
-docker run -n creditcoin-validator gluwa/creditcoin:latest
+docker run -n creditcoin-validator gluwa/creditcoin:2.222.0-testnet
 ```
 
 Once it is running, use Creditcoin-CLI via the `docker exec` command.
@@ -52,7 +52,7 @@ docker exec creditcoin-validator creditcoin-cli wizard -ss <stash-seed-phrase> -
 # Continue? (y/n): y
 ```
 
-After continuing, the Wizard will create al required extrinsics and communicate with the node to pair it with the stash and controller accounts.
+After continuing, the Wizard will create all required extrinsics and communicate with the node to pair it with the stash and controller accounts.
 
 Once the transactions are sent, the new validator should be in the waiting queue.
 
