@@ -6,12 +6,16 @@ description: >-
 
 # Creditcoin Miner's Manual
 
+> :warning:
+>
+> Creditcoin Mining Guide will be outdated after Creditcoin Mainnet upgrades to Nominated Proof-of-Work. To participate in the new PoS system, please refer to the Validator and Nominator guides.
+
 {% content-ref url="creditcoin-2.0-mining-setup.md" %}
 [creditcoin-2.0-mining-setup.md](creditcoin-2.0-mining-setup.md)
 {% endcontent-ref %}
 
-{% content-ref url="pre-2.0-mining-setup/" %}
-[pre-2.0-mining-setup](pre-2.0-mining-setup/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Github Documentation Links

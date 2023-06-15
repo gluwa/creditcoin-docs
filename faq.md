@@ -81,7 +81,7 @@ $G-CRE is currently listed on these exchanges:
   * [Bittrex](https://bittrex.com/Market/Index?MarketName=BTC-CTC)
   * [KuCoin](https://www.kucoin.com/trade/CTC-BTC?rcode=rPH7VCS)
 * **CTC/USDT**
-  * ****[OKX](https://www.okex.com/markets/spot-info/ctc-usdt)
+  * [OKX](https://www.okex.com/markets/spot-info/ctc-usdt)
   * [MEXC](https://www.mexc.com/exchange/CTC\_USDT)
   * [Poloniex](https://poloniex.com/spot/CTC\_USDT/)
   * [Gate.io](https://gate.io/trade/ctc\_usdt)

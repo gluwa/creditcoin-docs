@@ -13,6 +13,18 @@ description: >-
 [what-is-creditcoin.md](what-is-creditcoin.md)
 {% endcontent-ref %}
 
+{% content-ref url="staking/" %}
+[staking](staking/)
+{% endcontent-ref %}
+
+{% content-ref url="nominator-guides/" %}
+[nominator-guides](nominator-guides/)
+{% endcontent-ref %}
+
+{% content-ref url="validator-guides/" %}
+[validator-guides](validator-guides/)
+{% endcontent-ref %}
+
 {% content-ref url="creditcoin-miners-manual/" %}
 [creditcoin-miners-manual](creditcoin-miners-manual/)
 {% endcontent-ref %}
@@ -37,6 +49,7 @@ All lesser versions (1.8 and below) are now deemed as Creditcoin-Legacy, and use
 
 * [Creditcoin.org](https://creditcoin.org/) - Creditcoin - A Borderless Credit Investment Network
 * [Creditcoin Block Explorer](https://explorer.creditcoin.org)
+* [Creditcoin Staking Dashboard](https://staking-dashboard-test-app.azurewebsites.net/#/overview)
 * [Gluwa.com](https://gluwa.com/) - A Borderless Financial Platform
 * Download the [Creditcoin Whitepaper](https://creditcoin.org/white-paper)!
 * Our [Creditcoin Blog](https://blog.creditcoin.org/)
