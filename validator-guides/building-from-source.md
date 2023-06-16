@@ -13,12 +13,11 @@ If Rust is already installed, make sure to add the nightly version and the WebAs
 source ~/.cargo/env
 
 # Update the Rust toolchain
-rustup default stable
-rustup update
+rustup default nightly-2023-04-16
+rustup update nightly-2023-04-16
 
 # Add the nightly and WebAssembly targets:
-rustup update nightly
-rustup target add wasm32-unknown-unknown --toolchain nightly
+rustup target add wasm32-unknown-unknown --toolchain nightly-2023-04-16
 ```
 
 Verify your installation.
