@@ -5,7 +5,7 @@
 Creditcoin-CLI comes installed inside the official Creditcoin Docker image. Run the container and set up name for it.
 
 ```bash
-docker run -n creditcoin-validator gluwa/creditcoin:2.222.0-testnet
+docker run -n creditcoin-validator gluwa/creditcoin:2.222.1-testnet
 ```
 
 Once it is running, use Creditcoin-CLI via the `docker exec` command.
