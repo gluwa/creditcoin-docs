@@ -28,7 +28,7 @@ Verify your installation.
 
 Make sure you have all the necessary dependencies for compiling and running the Creditcoin node software.
 
-`sudo apt install make clang pkg-config libssl-dev build-essential`
+`sudo apt install make clang pkg-config libssl-dev build-essential protobuf-compiler`
 
 You may need to install & configure [Network Time Protocol (NTP) Client](https://en.wikipedia.org/wiki/Network\_Time\_Protocol).
 
