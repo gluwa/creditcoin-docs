@@ -86,7 +86,7 @@ docker exec creditcoin-validator creditcoin-cli new
 Bond CTC and designate your Controller account using the `--controller` or `-c` option.
 
 ```bash
-docker exec creditcoin-validator creditcoin-cli bond -s <seed-phrase> -c <controller-address> -a <ctc-amount>
+docker exec creditcoin-validator creditcoin-cli bond -s <controller-seed-phrase> -c <controller-address> -a <ctc-amount>
 ```
 
 Set the validator node keys using the controller account. The rotate flag specifies that the node will generate new keys. Existing keys can be used with the `--keys <key-string>` option.
