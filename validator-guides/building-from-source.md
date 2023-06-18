@@ -40,10 +40,10 @@ Download the repository by cloning it.
 
 `git clone https://github.com/gluwa/creditcoin`
 
-Move into the `creditcoin` folder and checkout to the `main` branch by running the following command.
+Move into the `creditcoin` folder and checkout to the `testnet` branch by running the following command.
 
 `cd creditcoin`\
-`git checkout main`
+`git checkout testnet`
 
 Build the binary with `cargo`.
 

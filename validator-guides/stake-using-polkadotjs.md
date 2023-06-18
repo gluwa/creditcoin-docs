@@ -74,6 +74,6 @@ After signing and sending the extrinsic, the validator should appear in the wait
 
 To stop your validator, simply click on the Stop button. You will be prompted to submit a new transaction that will remove your validator from the candidate set.
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
