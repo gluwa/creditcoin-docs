@@ -18,4 +18,4 @@ Testnet bootnodes:
 
 Users wanting to explore testnet data can connect to the public testnet node provided by Creditcoin through [PolkadotJS Apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.creditcoin.network%2Fws#/explorer).
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
