@@ -8,26 +8,24 @@ Creditcoin CLI is a terminal based general purpose tool developed by the Creditc
 
 **Creating accounts**
 
-Create accounts using the `new-seed` command.
+Create accounts using the `new` command and write down the newly generated mnemonic phrase and store it securely.&#x20;
 
 ```bash
-creditcoin-cli new-seed
+creditcoin-cli new
 ```
-
-Use the `--save` flag followed by a file name to store the newly generated mnemonic phrase or write it down.
 
 **Sending & Receiving CTC**
 
 The CLI tool also allows sending and receiving CTC. To send use the `send` command like so.
 
 ```bash
-creditcoin-cli send -f <seed-file> --amount <amount> --to <address>
+creditcoin-cli send -s <seed-phrase> --amount <amount> --to <address>
 ```
 
-To receive CTC send funds to the address shown when entering the `receive` command.
+To receive CTC send funds to the address shown when entering the `show-address` command.
 
 ```bash
-creditcoin-cli receive -f <seed-file>
+creditcoin-cli show-address -s <seed-phrase>
 ```
 
 **Staking**
@@ -36,7 +34,7 @@ You can stake CTC using the terminal by using the `bond` command and setting up 
 
 ```bash
 creditcoin-cli bond \
-    -f <seed-file> \
+    -s <seed-phrase> \
     --controller <controller-address> \
     --amount <amount> \
     --reward-destination <stake|stash|controller>
