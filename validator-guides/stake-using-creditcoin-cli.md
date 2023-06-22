@@ -115,6 +115,22 @@ Once keys are set up, the last step is signaling the network the intention to va
 docker exec creditcoin-validator creditcoin-cli validate --commission <commission-percent>
 ```
 
+## Distributing Rewards
+
+It is conventionally the validator operator's responsibility to trigger the reward distribution at the end of every era. The address of the stash account doubles as the validator's ID when distributing rewards.
+
+Remember, you can compute the stash account's address by running the following and providing the stash account's seed phrase when prompted.
+
+```bash
+docker exec -it creditcoin-validator creditcoin-cli show-address
+```
+
+With the stash address in hand, run the `distribute-rewards` command.
+
+```bash
+docker exec creditcoin-validator creditcoin-cli distribute-rewards --validator-id <validator-stash-address>
+```
+
 ## Stopping a Validator
 
 Stop a running validator with the `chill` command. This will remove the validator from the active/waiting set in the next session.
