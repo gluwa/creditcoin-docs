@@ -1,6 +1,8 @@
 # Creditcoin-CLI (beta)
 
-Creditcoin CLI is a terminal based general purpose tool developed by the Creditcoin team and includes all basic features expected for a blockchain wallet. Users can create accounts, send and receive CTC and stake without the need of a graphical interface.
+Creditcoin CLI is a terminal-based general purpose tool developed by the Creditcoin team and includes all the basic features expected for a blockchain wallet. Users can create accounts, send and receive CTC and stake without the need for a graphical interface.
+
+
 
 > ![:warning:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/warning\_32.png)
 >
@@ -19,13 +21,13 @@ creditcoin-cli new
 The CLI tool also allows sending and receiving CTC. To send use the `send` command like so.
 
 ```bash
-creditcoin-cli send -s <seed-phrase> --amount <amount> --to <address>
+creditcoin-cli send --amount <amount> --to <address>
 ```
 
 To receive CTC send funds to the address shown when entering the `show-address` command.
 
 ```bash
-creditcoin-cli show-address -s <seed-phrase>
+creditcoin-cli show-address
 ```
 
 **Staking**
@@ -34,7 +36,6 @@ You can stake CTC using the terminal by using the `bond` command and setting up 
 
 ```bash
 creditcoin-cli bond \
-    -s <seed-phrase> \
     --controller <controller-address> \
     --amount <amount> \
     --reward-destination <stake|stash|controller>
