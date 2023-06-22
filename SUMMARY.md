@@ -20,7 +20,7 @@
   * [Selecting Validators](nominator-guides/selecting-validators.md)
   * [Nominate using the Staking Dashboard](nominator-guides/nominate-using-the-staking-dashboard.md)
 * [Validator Guides](validator-guides/README.md)
-  * [Requirements](validator-guides/requirements.md)
+  * [Minimum Requirements](validator-guides/minimum-requirements.md)
   * [Using a Docker Container](validator-guides/using-a-docker-container.md)
   * [Stake using Creditcoin-CLI](validator-guides/stake-using-creditcoin-cli.md)
 * [Environments](environments/README.md)

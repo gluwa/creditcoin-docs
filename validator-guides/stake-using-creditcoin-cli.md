@@ -31,7 +31,7 @@ Creating new seed phrase...
 Seed phrase: follow actual seven pill kit side apart column cattle kiss fat write
 ```
 
-Use `show-address` to fund both accounts. One will be the Stash account and hold all tokens meant for staking. The other one will be the Controller, a secondary account that will manage the validator.
+Use `show-address` to get the address of the accounts, so you can fund them both with a transfer. One will be the Stash account and hold all tokens meant for staking. The other one will be the Controller, a secondary account that will manage the validator.
 
 ```bash
 docker exec -it creditcoin-validator creditcoin-cli show-address
@@ -46,7 +46,7 @@ Creditcoin-CLI provides a simple Wizard to set up validators. It will prompt you
 {% hint style="warning" %}
 Security note:
 
-* Accounts' private keys are derived form these seed phrases.
+* Accounts' private keys are derived from these seed phrases.
 * Every account must have a unique seed phrase.
 * Remember to use separate accounts (i.e. new seed phrases) for testnet and mainnet validators.
 {% endhint %}
@@ -74,7 +74,7 @@ After continuing, the Wizard will create all required extrinsics and communicate
 
 Once the transactions are sent, the new validator should be in the waiting queue.
 
-Use the`status` command to get information about the status of a particular validator by entering its Stash address.
+Use the `status` command to get information about the status of a particular validator by entering its Stash address.
 
 ```bash
 docker exec -it creditcoin-validator creditcoin-cli status -a 5CGBosx2Fw34u9jJtSgEQkoNTtHkPLKgsfjJiE3mDSWb44MW
