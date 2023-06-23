@@ -100,19 +100,19 @@ Setting a validator can also be done by sending each required command manually.
 After creating two accounts, first bond CTC using your Stash account and designate your Controller account using the `--controller` or `-c` option.
 
 ```bash
-docker exec creditcoin-validator creditcoin-cli bond -c <controller-address> -a <ctc-amount>
+docker exec -it creditcoin-validator creditcoin-cli bond -c <controller-address> -a <ctc-amount>
 ```
 
 Set the validator node keys using the controller account. The rotate flag specifies that the node will generate new keys. Existing keys can be used with the `--keys <key-string>` option.
 
 ```bash
-docker exec creditcoin-validator creditcoin-cli set-keys --rotate
+docker exec -it creditcoin-validator creditcoin-cli set-keys --rotate
 ```
 
 Once keys are set up, the last step is signaling the network the intention to validate. Use the `--commission` option to set up a portion of the block reward that will not be shared with nominators.
 
 ```bash
-docker exec creditcoin-validator creditcoin-cli validate --commission <commission-percent>
+docker exec -it creditcoin-validator creditcoin-cli validate --commission <commission-percent>
 ```
 
 ## Distributing Rewards
@@ -128,7 +128,7 @@ docker exec -it creditcoin-validator creditcoin-cli show-address
 With the stash address in hand, run the `distribute-rewards` command.
 
 ```bash
-docker exec creditcoin-validator creditcoin-cli distribute-rewards --validator-id <validator-stash-address>
+docker exec -it creditcoin-validator creditcoin-cli distribute-rewards --era <era number to distribute rewards for> --validator-id <validator-stash-address>
 ```
 
 ## Stopping a Validator
@@ -136,7 +136,7 @@ docker exec creditcoin-validator creditcoin-cli distribute-rewards --validator-i
 Stop a running validator with the `chill` command. This will remove the validator from the active/waiting set in the next session.
 
 ```bash
-docker exec creditcoin-validator creditcoin-cli chill
+docker exec -it creditcoin-validator creditcoin-cli chill
 ```
 
 ## Unbonding CTC
@@ -144,7 +144,7 @@ docker exec creditcoin-validator creditcoin-cli chill
 To unbond locked CTC, validators must first mark their tokens for unbonding, then wait for the unlocking period to end and finally withdraw the unbonded funds.
 
 ```bash
-docker exec creditcoin-validator creditcoin-cli unbond -a <amount>
+docker exec -it creditcoin-validator creditcoin-cli unbond -a <amount>
 ```
 
 The status command shows when the next unlocking chunk will be available to withdraw.
@@ -165,5 +165,5 @@ docker exec -it creditcoin-validator creditcoin-cli status -a <stash-address>
 After the unbonding period has passed, withdraw the funds.
 
 ```bash
-docker exec creditcoin-validator creditcoin-cli withdraw-unbonded
+docker exec -it creditcoin-validator creditcoin-cli withdraw-unbonded
 ```
