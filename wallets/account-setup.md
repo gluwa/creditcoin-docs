@@ -1,8 +1,8 @@
 # Account Setup
 
-Nominators are recommended to set up separate stash and controller accounts.
+Nominators and Validators are recommended to set up separate stash and controller accounts for security.
 
-You can generate your stash and controller account via any of the recommended methods, which are detailed on the [wallets](../wallets/) section.
+You can generate your stash and controller account via any of the recommended methods, which are detailed in the [wallets](./) section.
 
 If you'd like to redirect payments to a wallet that is neither the controller nor the stash account, set one up. We strongly recommend against using an exchange address as the recipient for any staking rewards.
 

@@ -1,5 +1,9 @@
 # Stake using Creditcoin-CLI
 
+{% hint style="info" %}
+Before continuing, please make sure you have setup a Stash and Controller address, as mentioned in the [Account Setup](../wallets/account-setup.md) section.
+{% endhint %}
+
 ## Running from the Docker image <a href="#using-a-docker-container" id="using-a-docker-container"></a>
 
 Make sure your Creditcoin Node container is running and use Creditcoin-CLI via the `docker exec` command.
@@ -39,6 +43,12 @@ docker exec -it creditcoin-validator creditcoin-cli show-address
 # Account address: 5CYEdiz9X5o5yrMMK8HM6Tb9LmzX1P4PcJekZrECeHv9UKH4
 ```
 
+## Funding Your Accounts
+
+Once your accounts are created, make sure they both have enough CTC to cover the desired staking amount _plus_ transaction fees. To fund your accounts, you can transfer from another wallet using a number of tools such as the [PolkadotJS extension](../wallets/graphical-user-interface/polkadot-js-extension.md) or [Creditcoin CLI](../wallets/command-line-interface/creditcoin-cli-beta.md).&#x20;
+
+You can confirm the balance of your accounts by following the directions mentioned in the [Checking your Balance section of the Creditcoin CLI page](../wallets/command-line-interface/creditcoin-cli-beta.md#checking-your-balance).
+
 ## Validator Wizard
 
 Creditcoin-CLI provides a simple Wizard to set up validators. It will prompt you for the previously generated seed phrases as needed. After launching the wizard and providing it with our seed phrases, it will show us the complete validator setup options and prompt us to continue.
@@ -70,7 +80,7 @@ Using the following parameters:
 Continue? (y/n): y
 ```
 
-After continuing, the Wizard will create all required extrinsics and communicate with the node to pair it with the stash and controller accounts.
+After continuing, the Wizard will create all required extrinsics (i.e. transactions) and communicate with the node to pair it with the stash and controller accounts.
 
 Once the transactions are sent, the new validator should be in the waiting queue.
 
