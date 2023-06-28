@@ -1,8 +1,8 @@
 # Mainnet
 
-Mainnet is the main network where CTC has real-world economic value. Most Creditcoin software, including the Creditcoin node, will connect to mainnet by default unless the user specifies another network.
+Mainnet is the main network where CTC has real-world economic value. Most Creditcoin software, including the Creditcoin node, will connect to Mainnet by default unless the user specifies another network.
 
-It is not recommended to test new features on mainnet. It is more appropiate to test using testnet o devnet.
+It is not recommended to test new features on Mainnet. It is more appropiate to test using [Testnet](testnet.md).
 
 Mainnet bootnodes:
 
