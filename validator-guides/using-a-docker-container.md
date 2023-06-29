@@ -7,7 +7,7 @@ Ensure Docker is installed  and run the `creditcoin-node` Docker container.
 To use the latest Testnet, make sure you are using the \`[gluwa/creditcoin:2.222.1-testnet](https://hub.docker.com/layers/gluwa/creditcoin/2.222.1-testnet/images/sha256-4b40f032bcbcf6b7300cb8993c8daeb36b104a2ac48a1ec18ea3289b4e958eee?context=explore)\` docker image and the bootnodes from the [Testnet Environment page](../environments/testnet.md)&#x20;
 
 ```bash
-docker run -d \
+docker run \
   -p 30333:30333 \
   -v <your local data path>:/data \
 # Enter testnet/mainnet image
