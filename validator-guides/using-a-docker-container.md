@@ -56,7 +56,7 @@ docker run \
   -p 30333:30333 `
   -v &#x3C;your local data path>:/creditcoin-node/data `
 # Enter testnet image
-  gluwa/creditcoin:2.222.1-testnet `
+  gluwa/creditcoin:2.222.2-testnet `
 # name the validator
   --name "validator name" `
 # (optional) opt in to telemetry
@@ -81,7 +81,7 @@ docker run `
   --name creditcoin-validator `
   -p 30333:30333 `
   -v <your local data path>:/creditcoin-node/data `
-  gluwa/creditcoin:2.222.1-testnet `
+  gluwa/creditcoin:2.222.2-testnet `
   --name "validator name" `
   --telemetry-url "wss://telemetry.creditcoin.network/submit/ 0" `
   --public-addr "/dns4/<yourhostname or ip>/tcp/30333" `
