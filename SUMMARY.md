@@ -20,7 +20,7 @@
   * [Selecting Validators](nominator-guides/selecting-validators.md)
   * [Nominate using the Staking Dashboard](nominator-guides/nominate-using-the-staking-dashboard.md)
 * [Validator Guides](validator-guides/README.md)
-  * [Requirements](validator-guides/requirements.md)
+  * [Requirements](validator-guides/minimum-requirements.md)
   * [Building from Source](validator-guides/building-from-source.md)
   * [Using a Docker Container](validator-guides/using-a-docker-container.md)
   * [Stake using PolkadotJS](validator-guides/stake-using-polkadotjs.md)
