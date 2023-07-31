@@ -28,7 +28,7 @@ Validators that set up a 100% commission do not share any rewards with their nom
 
 **4. Make sure the validator is not oversubscribed**
 
-Only the top 512 nominators for a specific validator get paid. The validators over this limit are marked red warning sign on the Staking Dashboard. These validators can be active, and if you choose them, you may actively support them in an era. However, if you're below the 512 cutoffs, you won't receive any rewards for it.
+Only the top 512 nominators for a specific validator get paid. The validators over this limit are marked red warning sign on the Staking Dashboard. These validators can be active, and if you choose them, you may actively support them in an era. However, if your stake is less than the 512 largest nominators, you won't receive any rewards for it.
 
 It's also a good idea to avoid validators with a high number of nominators, even if they're not oversubscribed, because they may get oversubscribed soon.
 

@@ -9,7 +9,7 @@ Node Operators have two main responsibilities:
 * Keeping their validator nodes highly available
 * Protecting their signing keys to prevent attackers from taking control and performing malicious actions using the validators identity.
 
-Currently, operators run validator nodes and manage session keys, produce new block candidates in BABE, vote and come to consensus in GRANDPA, and and, possibly, hold certain other responsibilities regarding data availability and XCM.
+Currently, operators run validator nodes and manage session keys, produce new block candidates in BABE, vote and come to consensus in GRANDPA, and, possibly, hold certain other responsibilities regarding data availability and XCM.
 
 ## Rewards and Slashing <a href="#rewards-and-slashing" id="rewards-and-slashing"></a>
 

@@ -1,6 +1,6 @@
 # Eras and Sessions
 
-In Creditcoin's Nominated Proof-of-Stake blockchain, time is organized using three distinct units: blocks, sessions and eras.
+In Creditcoin's Nominated Proof-of-Stake blockchain, time is organized using three distinct units: blocks, sessions, and eras.
 
 Validator elections are run at the end of each **era**. An era is a period of **24 hours** during which an **active set** of validators is producing blocks and performing other actions on the chain. Not all validators are in the active set and such set changes between eras.
 

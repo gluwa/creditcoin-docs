@@ -1,6 +1,6 @@
 # Validator Elections
 
-The validator election process that Creditcoin implements involves three distinct steps: nomination, winner selection and stake distribution.
+The validator election process that Creditcoin implements involves three distinct steps: nomination, winner selection, and stake distribution.
 
 ## **Nomination**
 

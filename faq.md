@@ -98,7 +98,7 @@ Information on the vesting smart contract is available in the [whitepaper](https
 
 ## What is the total amount of $CTC issued?
 
-The maximum supply is 2,000,000,000.  You can view the total current supply using the block explorer: [https://explorer.creditcoin.org/](https://explorer.creditcoin.org/)
+You can view the total current supply using the block explorer: [https://explorer.creditcoin.org/](https://explorer.creditcoin.org/)
 
 ## Do you have a Block Explorer for Creditcoin?
 
@@ -118,17 +118,13 @@ We discuss these issues both in our [blog](https://blog.creditcoin.org/) and in 
 
 &#x20;Discussion of potential solutions: [https://blog.creditcoin.org/discussion-creditcoins-token-model-transforming-weaknesses-into-strengths/](https://blog.creditcoin.org/discussion-creditcoins-token-model-transforming-weaknesses-into-strengths/)
 
-## How do I mine $CTC?
-
-&#x20;Please consult the Creditcoin miner's manual for detailed instructions. The manual is available at: [https://docs.creditcoin.org/creditcoin-miners-manual](https://docs.creditcoin.org/creditcoin-miners-manual)
-
 ## Is there a benefit to holding $CTC?
 
 Naturally, the primary benefit of holding $CTC is to utilize the Creditcoin blockchain commands and network as a lender or borrower. $CTC is a utility token.&#x20;
 
-While there are currently no intrinsic benefits to holding $CTC, we have plans to develop a $CTC staking market, allowing users to stake their $CTC to other users for a fee and earn interest on their $CTC idle assets. You can read more about this in our blog: [https://blog.creditcoin.org/discussion-creditcoins-token-model-transforming-weaknesses-into-strengths/](https://blog.creditcoin.org/discussion-creditcoins-token-model-transforming-weaknesses-into-strengths/)
+While there are currently no intrinsic benefits to holding $CTC, users can stake their $CTC in the network by running their own validator node, or by nominating other validators. This allows users to continue to earn $CTC based on their stake. More information is available in the [Staking](./staking/README.md) section of the docs.
 
-While holding $CTC, all disclaimers  of risk apply. All content associated with Creditcoin is for informational purposes - and not investment advice. Any value derived from an investment can go up or down. Past performance is not a guide to future performance. If you have questions about risk associated with an investment, contact your financial advisor.
+While holding $CTC, all disclaimers of risk apply. All content associated with Creditcoin is for informational purposes - and not investment advice. Any value derived from an investment can go up or down. Past performance is not a guide to future performance. If you have questions about risk associated with an investment, contact your financial advisor.
 
 ## In terms of vision, what traditional financial problems does Creditcoin want to solve, and what Bitcoin can't solve?
 
@@ -140,7 +136,7 @@ Some might ask why we didn't we use Ethereum. We built our proof of concept as a
 
 We bring the concept of credit to the market. There are many collateral-based lending products in the market; however, there are no credit-based lending projects (at least a significant one). Why is this important? Because credit is a fundamental component in building a financial ecosystem. Also, there are more people with credit cards than a mortgage.
 
-Further, Creditcoin connects the real economy to the cryptocurrency market. By supporting stablecoins, the blockchain integrates with fiat lenders like Aella. Investments they make become a stablecoin bond. We believe this will decouple Creditcoin investments from the cryptocurrency market, but couple it closer to the real economy. Crypto investors can hedge their portfolio beyond crypto by using Creditcoin.
+Further, Creditcoin connects the real economy to the cryptocurrency market. By supporting stablecoins, the blockchain integrates with fiat lenders like [Aella](https://aellaapp.com/). Investments they make become a stablecoin bond. We believe this will decouple Creditcoin investments from the cryptocurrency market, but couple it closer to the real economy. Crypto investors can hedge their portfolio beyond crypto by using Creditcoin.
 
 ## What are its weaknesses in terms of market development? If so, how can we solve it?
 
