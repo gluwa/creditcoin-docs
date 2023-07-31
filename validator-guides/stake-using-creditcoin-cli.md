@@ -18,11 +18,11 @@ Security notes:&#x20;
 * When using docker, employ `docker exec` as specified in these docs to keep sensitive values out of the container's logs on your system.
 * Only use the Creditcoin CLI to administer a validator from its own machine or container. Do not use the Creditcoin CLI to remotely administer a validator even on the same LAN or virtual network. Connections to the node, from the Creditcoin CLI, are made over unencrypted and unauthenticated websockets and are only safe for use on the loopback interface. (i.e `localhost`, `127.0.0.1`)
 * Remember that, when using any terminal or command line tool, commands entered in your terminal window are visible to other users and services on your system. Only enter secrets like seed phrases when prompted by the Creditcoin CLI.
-  {% endhint %}
+{% endhint %}
 
 ## Creating Accounts
 
-Create two accounts using the `new` command and save their seed phrases somewhere secure.
+Create two accounts using the `new` command and write down their seed phrases.
 
 ```bash
 docker exec -it creditcoin-validator creditcoin-cli new
@@ -59,7 +59,7 @@ Security note:
 * Accounts' private keys are derived from these seed phrases.
 * Every account must have a unique seed phrase.
 * Remember to use separate accounts (i.e. new seed phrases) for testnet and mainnet validators.
-  {% endhint %}
+{% endhint %}
 
 ```bash
 docker exec -it creditcoin-validator creditcoin-cli wizard -a <ctc-amount>

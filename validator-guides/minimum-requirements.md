@@ -6,8 +6,6 @@ The most common way for a beginner to run a validator is on a cloud server runni
 Creditcoin does not currently support Macs using Apple silicon, such as the M1 and M2
 {% endhint %}
 
-The transaction weights in Creditcoin are benchmarked on reference hardware. We ran the benchmark on a memory optimized `Standard_E4as_v4` VM instance of Azure.
-
 * **CPU**
   * Intel Core i5-8400 or better
     * 6 Cores @ 2.8Ghz
@@ -22,3 +20,5 @@ The transaction weights in Creditcoin are benchmarked on reference hardware. We 
 > ![:warning:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/warning\_32.png)
 >
 > It is strongly recommended that validators either meet or exceed these hardware specifications in order to ensure that they can process all blocks in time. If you use subpar hardware you will possibly run into performance issues, get less era points, and potentially even get slashed.
+
+The transaction weights in Creditcoin are benchmarked on reference hardware. We ran the benchmark on a memory optimized `Standard_E4as_v4` VM instance of Azure.
