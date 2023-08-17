@@ -17,8 +17,8 @@ rustup default stable
 rustup update
 
 # Add the nightly and WebAssembly targets:
-rustup update nightly
-rustup target add wasm32-unknown-unknown --toolchain nightly
+rustup update nightly-2023-04-16
+rustup target add wasm32-unknown-unknown --toolchain nightly-2023-04-16
 ```
 
 Verify your installation.
@@ -43,8 +43,7 @@ Download the repository by cloning it.
 
 Move into the `creditcoin` folder and checkout to the `main` branch by running the following command.
 
-`cd creditcoin`
-`git checkout main`
+`cd creditcoin` `git checkout main`
 
 Build the binary with `cargo`.
 

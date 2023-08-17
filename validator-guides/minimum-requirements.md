@@ -16,8 +16,10 @@ Creditcoin does not currently support Macs using Apple silicon, such as the M1 a
   * 8GB
 * **System**
   * Ubuntu 22.04 (Linux Kernel 5.16 or newer)
+* **Tokens**
+  * The minimum stake required to run a validator is currently 1000 CTC
 
-> ![:warning:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/warning\_32.png)
+> <img src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/warning_32.png" alt=":warning:" data-size="original">
 >
 > It is strongly recommended that validators either meet or exceed these hardware specifications in order to ensure that they can process all blocks in time. If you use subpar hardware you will possibly run into performance issues, get less era points, and potentially even get slashed.
 
