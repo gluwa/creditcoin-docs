@@ -8,4 +8,4 @@ Welcome to Creditcoin documentation! Our goal is to create a borderless credit i
 
 Creditcoin turns digital wallets into an investment market.&#x20;
 
-<figure><img src=".gitbook/assets/1. Creditcoin Onepager.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Creditcoin Onepager.jpg" alt=""><figcaption></figcaption></figure>
