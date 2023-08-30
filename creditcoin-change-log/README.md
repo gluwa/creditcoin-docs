@@ -6,6 +6,7 @@ description: >-
 
 # Creditcoin Change Log
 
+* [version-2.3-2023-08-31.md](version-2.3-2023-08-31.md "mention")
 * [version-2.2-2022-06-02.md](version-2.2-2022-06-02.md "mention")
 * [version-2.1-2022-05-02.md](version-2.1-2022-05-02.md "mention")
 * [version-2.0-2022-03-23.md](version-2.0-2022-03-23.md "mention")

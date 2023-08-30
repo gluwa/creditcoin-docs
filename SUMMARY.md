@@ -31,6 +31,7 @@
 * [Creditcoin Miner's Manual](creditcoin-miners-manual/README.md)
   * [Creditcoin 2.0 Mining Setup](creditcoin-miners-manual/creditcoin-2.0-mining-setup.md)
 * [Creditcoin Change Log](creditcoin-change-log/README.md)
+  * [Version 2.3 - 2023-08-31](creditcoin-change-log/version-2.3-2023-08-31.md)
   * [Version 2.2 - 2022-06-02](creditcoin-change-log/version-2.2-2022-06-02.md)
   * [Version 2.1 - 2022-05-02](creditcoin-change-log/version-2.1-2022-05-02.md)
   * [Version 2.0 - 2022-03-23](creditcoin-change-log/version-2.0-2022-03-23.md)

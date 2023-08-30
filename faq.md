@@ -8,7 +8,7 @@ description: Frequently asked questions about the Creditcoin Network.
 
 Creditcoin is a public blockchain that creates a credit lending infrastructure allowing fintech lenders and microfinance providers greater access to capital while borrowers secure transactions, loans and their objective credit history on a groundbreaking immutable ledger with the Creditcoin token.
 
-The Creditcoin blockchain is based on the Hyperledger Sawtooth architecture, and is designed to match and record loan transactions, creating an auditable and reliable source of credit information verification. By reducing informational a-symmetries, Creditcoin facilitates trust within its lending ecosystem.&#x20;
+The Creditcoin blockchain is based on the Hyperledger Sawtooth architecture, and is designed to match and record loan transactions, creating an auditable and reliable source of credit information verification. By reducing informational a-symmetries, Creditcoin facilitates trust within its lending ecosystem.
 
 Creditcoin ($CTC) is a utility token that is used as a transaction fee in the Creditcoin ecosystem. Whether you are a crypto investor, a fintech lender/developer, or a borrower in the developing world, the Creditcoin Ecosystem connects blockchain assets with a straightforward protocol creating trust and opportunity among an inter-blockchain lending market.
 
@@ -24,21 +24,21 @@ The Creditcoin token $CTC is used by parties to complete transaction events with
 
 ## How does the Creditcoin Network work?
 
-Creditcoin Network users must pay a $CTC network transaction fee in order to complete certain transaction events in the loan cycle, with each stage creating a verifiable paper-trail of credit history for each user tied to their wallet address. The image below provides a summary of Creditcoin's transaction events. &#x20;
+Creditcoin Network users must pay a $CTC network transaction fee in order to complete certain transaction events in the loan cycle, with each stage creating a verifiable paper-trail of credit history for each user tied to their wallet address. The image below provides a summary of Creditcoin's transaction events.
 
-![The Creditcoin Loan Process ](<.gitbook/assets/loan cycle.JPG.jpg>)
+![The Creditcoin Loan Process](<.gitbook/assets/loan cycle.JPG.jpg>)
 
 Loan transactions matched and recorded on Creditcoin are completed using other cryptocurrencies. Currently Bitcoin and ERC-20 are supported, though more networks will be supported in future). For a full technical breakdown of Creditcoin and each stage of the loan cycle, please [consult our Whitepaper](https://creditcoin.org/white-paper).
 
 ## What consensus algorithm does Creditcoin use?
 
-Creditcoin uses a Proof-of-Work (PoW) consensus algorithm. While this is subject to change, there are no such plans at the current time.
+Creditcoin originally used a SHA3-based Proof-of-Work algorithm, however since the release of Creditcoin 2.3, we have switched to a Nominated-Proof-of-Stake algorithm.
 
 ## When was the Creditcoin Mainnet released?
 
 The Creditcoin Mainnet launch was on April 4, 2019. For technical details, please review the Creditcoin Github repositories at [https://github.com/gluwa/Creditcoin](https://github.com/gluwa/Creditcoin).
 
-## What are the details of the Creditcoin token allocation?&#x20;
+## What are the details of the Creditcoin token allocation?
 
 ![Creditcoin Token Allocation](<.gitbook/assets/Token allocaiton.JPG.jpg>)
 
@@ -60,7 +60,7 @@ All 200 million available Creditcoin tokens were purchased and introduced into t
 
 The Creditcoin ecosystem involves two distinct tokens which represents the same underlying asset - $CTC and $G-CRE.
 
-$CTC is the mainnet token used for network transaction fees and mining rewards. It is exclusive to Creditcoin's hyperledger sawtooth blockchain network.
+$CTC is the mainnet token used for network transaction fees and mining rewards. It is exclusive to Creditcoin's Substrate-based blockchain network.
 
 $G-CRE is based on the ERC-20 Ethereum Network and is not directly useable on the Creditcoin mainnet. $G-CRE is used for vesting and trading, and can be exchanged into $CTC using a one-way 1:1 hook.
 
@@ -108,21 +108,21 @@ You can view the total current supply using the block explorer: [https://explore
 
 0.01 $CTC per transaction event. A full loan cycle costs around 0.1 $CTC. Fees are locked for 1 year before being returned to the user, giving CTC users a time-restricted but permanent right to use the network.
 
-&#x20;For a detailed breakdown, read out blog post here: [https://blog.creditcoin.org/what-makes-creditcoins-token-model-unique/](https://blog.creditcoin.org/what-makes-creditcoins-token-model-unique/)
+For a detailed breakdown, read out blog post here: [https://blog.creditcoin.org/what-makes-creditcoins-token-model-unique/](https://blog.creditcoin.org/what-makes-creditcoins-token-model-unique/)
 
 ## If the value of $CTC increases, higher network transaction costs might negatively impact usability. Do you have a solution?
 
-We discuss these issues both in our [blog](https://blog.creditcoin.org/) and in the [whitepaper](https://creditcoin.org/white-paper).&#x20;
+We discuss these issues both in our [blog](https://blog.creditcoin.org/) and in the [whitepaper](https://creditcoin.org/white-paper).
 
-&#x20;Discussion of potential issues: [https://blog.creditcoin.org/what-makes-creditcoins-token-model-unique/](https://blog.creditcoin.org/what-makes-creditcoins-token-model-unique/)
+Discussion of potential issues: [https://blog.creditcoin.org/what-makes-creditcoins-token-model-unique/](https://blog.creditcoin.org/what-makes-creditcoins-token-model-unique/)
 
-&#x20;Discussion of potential solutions: [https://blog.creditcoin.org/discussion-creditcoins-token-model-transforming-weaknesses-into-strengths/](https://blog.creditcoin.org/discussion-creditcoins-token-model-transforming-weaknesses-into-strengths/)
+Discussion of potential solutions: [https://blog.creditcoin.org/discussion-creditcoins-token-model-transforming-weaknesses-into-strengths/](https://blog.creditcoin.org/discussion-creditcoins-token-model-transforming-weaknesses-into-strengths/)
 
 ## Is there a benefit to holding $CTC?
 
-Naturally, the primary benefit of holding $CTC is to utilize the Creditcoin blockchain commands and network as a lender or borrower. $CTC is a utility token.&#x20;
+Naturally, the primary benefit of holding $CTC is to utilize the Creditcoin blockchain commands and network as a lender or borrower. $CTC is a utility token.
 
-While there are currently no intrinsic benefits to holding $CTC, users can stake their $CTC in the network by running their own validator node, or by nominating other validators. This allows users to continue to earn $CTC based on their stake. More information is available in the [Staking](./staking/README.md) section of the docs.
+While there are currently no intrinsic benefits to holding $CTC, users can stake their $CTC in the network by running their own validator node, or by nominating other validators. This allows users to continue to earn $CTC based on their stake. More information is available in the [Staking](staking/) section of the docs.
 
 While holding $CTC, all disclaimers of risk apply. All content associated with Creditcoin is for informational purposes - and not investment advice. Any value derived from an investment can go up or down. Past performance is not a guide to future performance. If you have questions about risk associated with an investment, contact your financial advisor.
 
