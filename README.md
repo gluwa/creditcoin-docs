@@ -24,10 +24,6 @@ description: >-
 [validator-guides](validator-guides/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 {% content-ref url="creditcoin-change-log/" %}
 [creditcoin-change-log](creditcoin-change-log/)
 {% endcontent-ref %}
