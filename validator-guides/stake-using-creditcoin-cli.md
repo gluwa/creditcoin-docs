@@ -1,7 +1,7 @@
 # Stake using Creditcoin-CLI
 
 {% hint style="info" %}
-Before continuing, please make sure you have setup a Stash and Controller address, as mentioned in the [Account Setup](../wallets/account-setup.md) section.
+Before continuing, please make sure you have setup a Stash and Controller address, as mentioned in the [Account Setup](../nominator-guides/account-setup.md) section.
 {% endhint %}
 
 ## Running from the Docker image <a href="#using-a-docker-container" id="using-a-docker-container"></a>
@@ -13,7 +13,7 @@ docker exec -it creditcoin-validator creditcoin-cli --help
 ```
 
 {% hint style="warning" %}
-Security notes:&#x20;
+Security notes:
 
 * When using docker, employ `docker exec` as specified in these docs to keep sensitive values out of the container's logs on your system.
 * Only use the Creditcoin CLI to administer a validator from its own machine or container. Do not use the Creditcoin CLI to remotely administer a validator even on the same LAN or virtual network. Connections to the node, from the Creditcoin CLI, are made over unencrypted and unauthenticated websockets and are only safe for use on the loopback interface. (i.e `localhost`, `127.0.0.1`)
@@ -45,7 +45,7 @@ docker exec -it creditcoin-validator creditcoin-cli show-address
 
 ## Funding Your Accounts
 
-Once your accounts are created, make sure they both have enough CTC to cover the desired staking amount _plus_ transaction fees. To fund your accounts, you can transfer from another wallet using a number of tools such as the [PolkadotJS extension](../wallets/graphical-user-interface/polkadot-js-extension.md) or [Creditcoin CLI](../wallets/command-line-interface/creditcoin-cli-beta.md).&#x20;
+Once your accounts are created, make sure they both have enough CTC to cover the desired staking amount _plus_ transaction fees. To fund your accounts, you can transfer from another wallet using a number of tools such as the [PolkadotJS extension](../wallets/graphical-user-interface/polkadot-js-extension.md) or [Creditcoin CLI](../wallets/command-line-interface/creditcoin-cli-beta.md).
 
 You can confirm the balance of your accounts by following the directions mentioned in the [Checking your Balance section of the Creditcoin CLI page](../wallets/command-line-interface/creditcoin-cli-beta.md#checking-your-balance).
 

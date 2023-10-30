@@ -4,7 +4,7 @@ The validator election process that Creditcoin implements involves three distinc
 
 ## **Nomination**
 
-In the first step validators mark themselves as candidates and nominators can decide to support them with their stake. One nominator can vote for up to 16 validators in the same election round.
+In the first step validators mark themselves as candidates and nominators can decide to support them with their stake.
 
 ## **Winner selection**
 

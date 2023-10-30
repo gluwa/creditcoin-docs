@@ -20,5 +20,4 @@ gluwa/creditcoin-validator:1.7
 gluwa/sawtooth-rest-api:1.7
 ```
 
-Then, `stop` their node,  `pull` the new images with `docker-compose -f Server/docker-compose.yaml pull` , and finally `up` their instance(s). Details are available here:\
-[https://docs.creditcoin.org/updating-creditcoin-nodes#e110](https://docs.creditcoin.org/updating-creditcoin-nodes#e110)
+Then, `stop` their node,  `pull` the new images with `docker-compose -f Server/docker-compose.yaml pull` , and finally `up` their instance(s). Details are available [here](https://github.com/gluwa/creditcoin-docs/blob/642ab6da00b1e94e3f475bc7b30c6817593937cc/creditcoin-miners-manual/pre-2.0-mining-setup/updating-creditcoin-nodes.md)

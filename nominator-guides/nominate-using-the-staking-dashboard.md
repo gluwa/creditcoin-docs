@@ -1,14 +1,14 @@
 # Nominate using the Staking Dashboard
 
 {% hint style="info" %}
-Before continuing, please make sure you have set up a Stash account and Controller account, as mentioned in the [Account Setup](../wallets/account-setup.md) section.
+Before continuing, please make sure you have set up a Stash account and Controller account, as mentioned in the [Account Setup](account-setup.md) section.
 {% endhint %}
 
 First, connect your wallet to the [Creditcoin Staking Dashboard](https://staking.creditcoin.org/#/overview) by clicking the "Connect" button in the top-right corner. Select your Stash account.
 
 To start nominating, navigate to the Nominate section and click on "Start Nominating". This will open a menu where you can select a Controller account, your reward destination address, the validators you wish to back, and the amount you wish to bond.
 
-> ![:info:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/info\_32.png)&#x20;
+> <img src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/info_32.png" alt=":info:" data-size="original">
 >
 > Nominating on Creditcoin is an active role. If some of your elected validators misbehaves, you may lose their funds due to slashing. For more information about how to select good validator refer to the [Selecting Validators](selecting-validators.md) section.
 

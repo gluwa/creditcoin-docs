@@ -1,8 +1,7 @@
 ---
 description: >-
-  Welcome to the Documentation page for the Creditcoin Foundation. Join our
-  community of developers as we build the future ecosystem of decentralized
-  credit lending.
+  The Creditcoin documentation provides developers with the relevant technical
+  information to understand and participate in the Creditcoin network
 ---
 
 # Documentation
@@ -25,8 +24,8 @@ description: >-
 [validator-guides](validator-guides/)
 {% endcontent-ref %}
 
-{% content-ref url="creditcoin-miners-manual/" %}
-[creditcoin-miners-manual](creditcoin-miners-manual/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="creditcoin-change-log/" %}
@@ -49,9 +48,9 @@ All lesser versions (1.8 and below) are now deemed as Creditcoin-Legacy, and use
 
 * [Creditcoin.org](https://creditcoin.org/) - Creditcoin - A Borderless Credit Investment Network
 * [Creditcoin Block Explorer](https://explorer.creditcoin.org)
-* [Creditcoin Staking Dashboard](https://staking-dashboard-test-app.azurewebsites.net/#/overview)
+* [Creditcoin Staking Dashboard](https://staking.creditcoin.org/)
 * [Gluwa.com](https://gluwa.com/) - A Borderless Financial Platform
 * Download the [Creditcoin Whitepaper](https://creditcoin.org/white-paper)!
-* Our [Creditcoin Blog](https://blog.creditcoin.org/)
+* Our [Creditcoin Blog](https://creditcoin.org/blog/)
 * Creditcoin on [Twitter](https://twitter.com/creditcoin), [Reddit](https://www.reddit.com/r/Creditcoin/) and [Telegram](https://t.me/CreditcoinOfficial)
 * Join our [Creditcoin Discord Community](https://discord.com/invite/creditcoin)!

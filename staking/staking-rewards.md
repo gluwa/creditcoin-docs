@@ -22,7 +22,7 @@ The Creditcoin blockchain rewards non-uncle block producers with 2 CTC per block
 
 Assuming all validators are honest and always online when required, block production slots for an era are distributed evenly among them, no matter their total stake. Creditcoin's implementation uses BABE block authoring to blindly assign these slots in a secure way. Ideally, they should all earn a similar amount of era points and thus a similar amount of tokens.
 
-Total stake behind each validator does not affect reward distribution.Assuming there are only 4 active validators in an era, if every validator is online when required, when the era ends each of them should get 2880 CTC (1/4 of the total era reward).
+Total stake behind each validator does not affect reward distribution. Assuming there are only 4 active validators in an era, if every validator is online when required, when the era ends each of them should get 2880 CTC (1/4 of the total era reward).
 
 * Validator #1 with 1M CTC stake: 2880 CTC reward
 * Validator #2 with 500.000 CTC stake: 2880 CTC reward

@@ -4,7 +4,7 @@ description: >-
   transition from Python to a Rust implementation.
 ---
 
-# Version 1.8 - 2022-3-28
+# Version 1.8 - 2022-03-28
 
 * Upgraded Hyperledger Sawtooth to version 1.2.6 (up from 1.0.5)
   * Attempts to improve the transaction processor and validation logic in efforts to curtail invalid transactions.
@@ -17,8 +17,7 @@ description: >-
 
 **The download links for the 1.8 snapshot are located here:**
 
-Google Drive - [https://drive.google.com/file/d/1m9E0GXtS5Pbesn761Xl101qVDZ8e9zPK/view?usp=sharing](https://drive.google.com/file/d/1m9E0GXtS5Pbesn761Xl101qVDZ8e9zPK/view?usp=sharing)\
-Direct Download - [http://dl.creditcoin.org/latestblocks/blockchain-03-23-22-block\_1123967-consensus\_0.2.tar.gz](http://dl.creditcoin.org/latestblocks/blockchain-03-23-22-block\_1123967-consensus\_0.2.tar.gz)
+Google Drive - [https://drive.google.com/file/d/1m9E0GXtS5Pbesn761Xl101qVDZ8e9zPK/view?usp=sharing](https://drive.google.com/file/d/1m9E0GXtS5Pbesn761Xl101qVDZ8e9zPK/view?usp=sharing)
 
 **General advisory notes concerning the 1.8 version and release:**
 
@@ -27,6 +26,6 @@ Direct Download - [http://dl.creditcoin.org/latestblocks/blockchain-03-23-22-blo
 * Nothing stops nodes from starting a network from scratch and attempting to resolve their own chain from very low heights.
 * Broken or faulty comms between validator/consensus can trigger unrecoverable errors in the consensus depending on the missing event/timeout or state in the publishing state machine.
 
-**Public Notice: Creditcoin 1.8 (and all older versions) are now designated as "legacy" in all Creditcoin repositories on Github.  Because of the issues described above with v1.8, and the ongoing issues with supporting Hyperledger Sawtooth, the Creditcoin Foundation has made the decision to no longer support Hyperledger Sawtooth.  A Creditcoin version 2.0 version has now been released using the Substrate framework. Please see the** [**Version 2.0 Change Log**](https://app.gitbook.com/o/-LjFKFsSaSJudznvwK-5/s/-LjFKK4rtNBbbdxs2d4\_/\~/changes/acQ6JqBaREEsc2UGq0XP/creditcoin-change-log/version-2.0-2022-3-23)**.**
+**Public Notice: Creditcoin 1.8 (and all older versions) are now designated as "legacy" in all Creditcoin repositories on Github.  Because of the issues described above with v1.8, and the ongoing issues with supporting Hyperledger Sawtooth, the Creditcoin Foundation has made the decision to no longer support Hyperledger Sawtooth.  A Creditcoin version 2.0 version has now been released using the Substrate framework. Please see the Version 2.0 Change Log.**
 
 **For more information about this transition to Substrate, please see our** [**Medium Post "Creditcoin 2.0"**](https://medium.com/creditcoin-foundation/creditcoin-2-0-d9bbca02991a)**.**
