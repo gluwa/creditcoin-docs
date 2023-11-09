@@ -92,12 +92,11 @@ The original Creditcoin Mainnet on Hyperledger Sawtooth was released on April 4,
 
 ## What are the details of Creditcoin’s initial token allocation?
 
-![Creditcoin Token Allocation](<.gitbook/assets/Token allocaiton.JPG.jpg>)
+The initial distribution of CTC (ERC-20) aka G-CRE tokens are as follows:
 
-* **70%** to Creditcoin miners (Mining block rewards) - for running and maintaining the network.
-* **15%** to Gluwa Inc. (Genesis allocation; 6-year linear vesting) - for R\&D, deployment, business development, marketing, distribution, administration etc.
-* **10%** to Investors (Genesis allocation; 6-month to 3-year linear vesting) - for funding network development, business development, partnerships and support. Unsold tokens remitted to Creditcoin foundation with a 6-year vesting period.
-* **5%** to Creditcoin Foundation (Genesis allocation; 6-year linear vesting) - For long-term network governance, partner support, academic grants, public works, and community-building.
+* Investors (Genesis allocation; 6-month to 3-year linear vesting) – 200M CTC, For funding network development, business development, partnerships, and support. Any unsold tokens were remitted to the Creditcoin Foundation with a vesting period of 6 years.
+* Gluwa, Inc. (Genesis allocation; 6-year linear vesting) – 300M CTC, For R\&D, deployment, business development, marketing, distribution, and administration costs.
+* Creditcoin Foundation (Genesis allocation; 6-year linear vesting) – 100M CTC, For long-term network governance, partner support, academic grants, public works, and community building
 
 Please note that with the 2.0+ update, there is no longer a fixed supply of CTC. Please consult the Tokenomics FAQ to find out more.
 
