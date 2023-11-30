@@ -43,7 +43,7 @@ All lesser versions (1.8 and below) are now deemed as Creditcoin-Legacy, and use
 ## Popular Creditcoin Resources
 
 * [Creditcoin.org](https://creditcoin.org/) - Creditcoin - A Borderless Credit Investment Network
-* [Creditcoin Block Explorer](https://explorer.creditcoin.org)
+* [Creditcoin Block Explorer](https://creditcoin.subscan.io/)
 * [Creditcoin Staking Dashboard](https://staking.creditcoin.org/)
 * [Gluwa.com](https://gluwa.com/) - A Borderless Financial Platform
 * Download the [Creditcoin Whitepaper](https://creditcoin.org/white-paper)!

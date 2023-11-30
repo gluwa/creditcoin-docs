@@ -61,7 +61,7 @@ Loan transactions matched and recorded on Creditcoin are completed on other chai
 
 Yes we do. Link below.&#x20;
 
-[Creditcoin Explorer](https://explorer.creditcoin.org/)
+[Creditcoin Explorer](https://creditcoin.subscan.io/)
 
 ## What is the relationship between Creditcoin, Gluwa and Aella?
 
@@ -148,7 +148,7 @@ There is an online web app provided by Gluwa which supports G-CRE -> CTC swaps. 
 
 ## What is the total amount of $CTC issued?
 
-The maximum supply is uncapped, with an issuance rate of 2 CTC per block. This equates to roughly 8 CTC every minute. You can view the total current supply using the block explorer [here](https://explorer.creditcoin.org/). Please also bear in mind that CTC fees are burned when used in a transaction, reducing the overall supply.
+The maximum supply is uncapped, with an issuance rate of 2 CTC per block. This equates to roughly 8 CTC every minute. You can view the total current supply using the block explorer [here](https://creditcoin.subscan.io/). Please also bear in mind that CTC fees are burned when used in a transaction, reducing the overall supply.
 
 ## What is the Creditcoin Network transaction fee?
 
