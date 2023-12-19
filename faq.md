@@ -131,14 +131,17 @@ $G-CRE is currently listed on these exchanges:
   * [Bittrex](https://bittrex.com/Market/Index?MarketName=BTC-CTC)
   * [KuCoin](https://www.kucoin.com/trade/CTC-BTC?rcode=rPH7VCS)
 * **CTC/USDT**
-  * [OKX](https://www.okex.com/markets/spot-info/ctc-usdt)
+  * [OKX](https://www.okx.com/markets/spot-info/ctc-usdt)
   * [MEXC](https://www.mexc.com/exchange/CTC\_USDT)
   * [Poloniex](https://poloniex.com/spot/CTC\_USDT/)
-  * [Gate.io](https://gate.io/trade/ctc\_usdt)
+  * [Gate.io](https://www.gate.io/trade/CTC\_USDT)
   * [Bybit](https://www.bybit.com/en-US/trade/spot/CTC/USDT)
-  * [Huobi Global](https://www.huobi.com/en-us/exchange/ctc\_usdt)
+  * [HTX](https://www.htx.com/en-us/trade/ctc\_usdt)
+  * [KuCoin](https://www.kucoin.com/trade/CTC-USDT)
 * **CTC/KRW**
+  * [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.KRW-CTC)
   * [Bithumb](https://www.bithumb.com/trade/order/CTC\_KRW)
+  * [GOPAX](https://www.gopax.co.kr/exchange/ctc-krw)
 
 More listings are planned. See [https://coinmarketcap.com/currencies/creditcoin/markets/](https://coinmarketcap.com/currencies/creditcoin/markets/) for a complete list of active exchanges.
 
