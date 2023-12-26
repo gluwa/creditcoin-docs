@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-title: SubWallet
----
-
 # Connecting SubWallet to Creditcoin
 
 SubWallet is the comprehensive non-custodial wallet solution for Polkadot, Substrate & Ethereum ecosystems. Built on top of Polkadot {.js}, SubWallet focuses on improving UX & UI. We envision a crypto wallet as a Web3 multiverse gateway through which users can enjoy multi-chain services with utmost ease and absolute security. 
@@ -26,6 +21,9 @@ For this tutorial, we will walk you through the process of creating a wallet usi
 Once you have installed the extension, you'll have the option to **create**, **import** or **attach an account** ([Ledger](https://docs.subwallet.app/main/extension-user-guide/account-management/connect-ledger-device), [Keystone](https://docs.subwallet.app/main/extension-user-guide/account-management/connect-keystone-device), [Polkadot Vault](https://docs.subwallet.app/main/extension-user-guide/account-management/attach-a-polkadot-vault-previously-parity-signer-account) and [Watch-only account](https://docs.subwallet.app/main/extension-user-guide/account-management/attach-a-watch-only-account))
 
 ![Browser extension create screen](../../.gitbook/assets/subwallet/subwallet-1.png)
+
+> :memo: **Note**
+    Creditcoint is a Substrate-native chain, so you will only be able to view and interact with Creditcoin by creating or importing a Substrate account.
 
 ### Create a new account
 
@@ -61,6 +59,9 @@ You have finished creating a new account! If you want to create additional accou
 ### Import an existing account
 
 To import an account that you have already created, choose **Import an account**. 
+
+> :memo: **Note**
+    Creditcoint is a Substrate-native chain, so you will only be able to view and interact with Creditcoin by creating or importing a Substrate account.
 
 ![SubWallet browser extension home screen](../../.gitbook/assets/subwallet/subwallet-7.png)
 

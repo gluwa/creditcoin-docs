@@ -12,6 +12,7 @@
   * [Types of Wallets](wallets/types-of-wallets.md)
   * [Graphical User Interface](wallets/graphical-user-interface/README.md)
     * [Polkadot-JS Extension](wallets/graphical-user-interface/polkadot-js-extension.md)
+    * [SubWallet](wallets/graphical-user-interface/subwallet.md)
   * [Command-line Interface](wallets/command-line-interface/README.md)
     * [Subkey](wallets/command-line-interface/subkey.md)
     * [Creditcoin-CLI (beta)](wallets/command-line-interface/creditcoin-cli-beta.md)
