@@ -87,7 +87,7 @@ Once the transactions are sent, the new validator should be in the waiting queue
 Use the `status` command to get information about the status of a particular validator by entering its Stash address.
 
 ```bash
-docker exec -it creditcoin-validator creditcoin-cli status -a 5CGBosx2Fw34u9jJtSgEQkoNTtHkPLKgsfjJiE3mDSWb44MW
+docker exec -it creditcoin-validator creditcoin-cli status - 5CGBosx2Fw34u9jJtSgEQkoNTtHkPLKgsfjJiE3mDSWb44MW
 ```
 
 The validator status will be shown:
@@ -160,7 +160,7 @@ docker exec -it creditcoin-validator creditcoin-cli unbond -a <amount>
 The status command shows when the next unlocking chunk will be available to withdraw.
 
 ```bash
-docker exec -it creditcoin-validator creditcoin-cli status -a <stash-address>
+docker exec -it creditcoin-validator creditcoin-cli status - <stash-address>
 ```
 
 ```
