@@ -23,7 +23,7 @@ Once you have installed the extension, you'll have the option to **create**, **i
 ![Browser extension create screen](../../.gitbook/assets/subwallet/subwallet-1.png)
 
 > :memo: **Note**
-    Creditcoint is a Substrate-native chain, so you will only be able to view and interact with Creditcoin by creating or importing a Substrate account.
+    Creditcoin is a Substrate-native chain, so you will only be able to view and interact with Creditcoin by creating or importing a Substrate account.
 
 ### Create a new account
 
@@ -61,7 +61,7 @@ You have finished creating a new account! If you want to create additional accou
 To import an account that you have already created, choose **Import an account**. 
 
 > :memo: **Note**
-    Creditcoint is a Substrate-native chain, so you will only be able to view and interact with Creditcoin by creating or importing a Substrate account.
+    Creditcoin is a Substrate-native chain, so you will only be able to view and interact with Creditcoin by creating or importing a Substrate account.
 
 ![SubWallet browser extension home screen](../../.gitbook/assets/subwallet/subwallet-7.png)
 
@@ -152,7 +152,7 @@ Head back to the home screen. You should be able to see that Creditcoin has been
 ![Connected Astar](../../.gitbook/assets/subwallet/subwallet-19.png)
 
 > :memo: **Note**
-    Creditcoint is a Substrate-native chain, so you will only be able to view and interact with Creditcoin using a Substrate account.
+    Creditcoin is a Substrate-native chain, so you will only be able to view and interact with Creditcoin using a Substrate account.
 
 ## Receive token
 
