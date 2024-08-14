@@ -8,11 +8,11 @@ In the first step validators mark themselves as candidates and nominators can de
 
 ## **Winner selection**
 
-Winning validators are selected by aggregating the total staked CTC that is supporting them (a nominator voting for 2 validators with 10 tokens gives 10 to each). The ones with the highest number of CTC backing them are elected and become part of the active set for the upcoming era.
+Winning validators are selected by aggregating the total staked CTC that is supporting them (a nominator voting for 2 validators with 10 CTC gives 10 to each). The ones with the highest number of CTC backing them are elected and become part of the active set for the upcoming era.
 
 ## **Stake Distribution**
 
-While the staked tokens are counted multiple times to decide winners, they are then distributed between elected validators once the era begins. While there is no “right” way to distribute these tokens, Creditcoin uses a process called Phragmén to optimize for three things:
+While the staked CTC is counted multiple times to decide winners, it is then distributed between elected validators once the era begins. While there is no “right” way to distribute these tokens, Creditcoin uses a process called Phragmén to optimize for three things:
 
 * Maximize total amount at stake
 * Maximize stake behind the minimally staked validator
