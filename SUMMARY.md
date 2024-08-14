@@ -30,6 +30,7 @@
   * [Testnet](environments/testnet.md)
   * [Devnet](environments/devnet.md)
 * [Creditcoin Change Log](creditcoin-change-log/README.md)
+  * [Version 2.4.0 - 2024-08-15](creditcoin-change-log/version-2.4.0-2024-08-15.md)
   * [Version 2.3.2 - 2023-11-01](creditcoin-change-log/version-2.3.2-2023-11-01.md)
   * [Version 2.3 - 2023-08-31](creditcoin-change-log/version-2.3-2023-08-31.md)
   * [Version 2.2 - 2022-06-02](creditcoin-change-log/version-2.2-2022-06-02.md)
