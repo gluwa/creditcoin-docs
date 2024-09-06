@@ -16,8 +16,8 @@ Creditcoin does not currently support Macs using Apple silicon, such as the M1 a
   * 8GB
 * **System**
   * Ubuntu 22.04 (Linux Kernel 5.16 or newer)
-* **Tokens**
-  * The minimum stake required to run a validator is documented per environment [here](../environments/).
+
+
 
 > <img src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/warning_32.png" alt=":warning:" data-size="original">
 >
