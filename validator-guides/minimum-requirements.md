@@ -12,7 +12,6 @@ Creditcoin does not currently support Macs using Apple silicon, such as the M1 a
     * 9M Cache
 * **Storage**
   * Needs to be sufficient for targeted chain
-  * 256G + recommended for CC3 mainnet as of 2025-05-01
 * **Memory**
   * 8GB
 * **System**
