@@ -1,52 +1,42 @@
 ---
-description: >-
-  The Creditcoin documentation provides developers with the relevant technical
-  information to understand and participate in the Creditcoin network
+description: CC Enterprise - Legacy documentation
 ---
 
 # Documentation
 
-## Documentation Contents
+## CC Enterprise
 
-{% content-ref url="what-is-creditcoin.md" %}
-[what-is-creditcoin.md](what-is-creditcoin.md)
-{% endcontent-ref %}
+{% hint style="danger" %}
+This documentation is for the Legacy CC Enterprise, also known as CC2.
 
-{% content-ref url="staking/" %}
-[staking](staking/)
-{% endcontent-ref %}
+State migration to Creditcoin3 was completed at CC Enterprise block #2770031\
+CC Enterprise support ended at block #7025302
+{% endhint %}
 
-{% content-ref url="nominator-guides/" %}
-[nominator-guides](nominator-guides/)
-{% endcontent-ref %}
+This is a legacy documentation website for CC Enterprise, for which support ended in August 2026, 2 years after state migration to Creditcoin3.
 
-{% content-ref url="validator-guides/" %}
-[validator-guides](validator-guides/)
-{% endcontent-ref %}
 
-{% content-ref url="creditcoin-change-log/" %}
-[creditcoin-change-log](creditcoin-change-log/)
-{% endcontent-ref %}
 
-## Creditcoin on Github
+### For current Creditcoin blockchain documentation
 
-#### Creditcoin 2.0
+Please visit [docs.creditcoin.org](https://docs.creditcoin.org)
+
+
+
+### Legacy - Creditcoin 2.0 (CC Enterprise)
 
 {% embed url="https://github.com/gluwa/creditcoin" %}
 
-Creditcoin 2.0 is the official implementation of the Creditcoin protocol - utilizing Substrate. &#x20;
+### Legacy - Creditcoin 1
 
-All lesser versions (1.8 and below) are now deemed as Creditcoin-Legacy, and use the unsupported Hyperledger Sawtooth versioning, and marked as such in their respective repos.  For more information about the transition from Sawtooth to Substrate, please reference the announcement "[Creditcoin 2.0](https://medium.com/creditcoin-foundation/creditcoin-2-0-d9bbca02991a)" made on the Creditcoin Medium dated March 23rd, 2022.
+All lesser versions (3 and below) are now deemed as Creditcoin-Legacy. Versions <= 1.8 were already referenced to as Legacy Creditcoin 1, built with the Hyperledger Sawtooth. For more information about the transition from Sawtooth to Substrate, please reference the announcement [_Creditcoin 2.0_](https://medium.com/creditcoin-foundation/creditcoin-2-0-d9bbca02991a) made on the Creditcoin Medium dated March 23rd, 2022.
 
 {% embed url="https://github.com/gluwa/creditcoin-legacy" %}
 
-## Popular Creditcoin Resources
+## Other Creditcoin Resources
 
 * [Creditcoin.org](https://creditcoin.org/) - Creditcoin - A Borderless Credit Investment Network
-* [Creditcoin Block Explorer](https://cc-enterprise.subscan.io/)
-* [Creditcoin Staking Dashboard](https://staking.creditcoin.org/)
 * [Gluwa.com](https://gluwa.com/) - A Borderless Financial Platform
-* Download the [Creditcoin Whitepaper](https://creditcoin.org/white-paper)!
+* [Creditcoin Whitepaper](https://creditcoin.org/white-paper)
 * Our [Creditcoin Blog](https://creditcoin.org/blog/)
-* Creditcoin on [Twitter](https://twitter.com/creditcoin), [Reddit](https://www.reddit.com/r/Creditcoin/) and [Telegram](https://t.me/CreditcoinOfficial)
-* Join our [Creditcoin Discord Community](https://discord.com/invite/creditcoin)!
+* Join our [Creditcoin Discord Community](https://discord.com/invite/creditcoin)
